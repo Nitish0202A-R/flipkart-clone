@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.178);
+}
+.search{
+    height: fit-content;
+    width: 25vw;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: none;
+}
+nav .li{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+nav .login{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+nav .img{
+    width: 20px;
+}
+.login select{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 20px;
+}
+nav .cart{
+    display: flex;
+    gap: 5px;
+}
+nav .seller{
+    display: flex;
+    gap: 5px;
+}
+.login select:hover{
+    background-color: rgb(28, 109, 141);
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+
+/*****************************top navbar product***************/
+.topproductnavbar{
+    height:80;
+    display:flex;
+    justify-content: center;
+    padding:10px 20px;
+    border-bottom:1px solid #ccc;
+}
+.topproductnavbar_nav{
+    width:110px;
+    height:112px;
+    cursor:pointer;
+    flex:1px;
+}
+.topproductnavbar_nav img{
+    width:50px;
+    height:50px;
+}
+.topproductnavbar_nav p{
+    font-weight:500;
+}
+.topproductnavbar_nav:hover p{
+    color: #2874f0;
+}
+
+
+
+
+
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .s1-top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .s1-top > button{
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        height: 3vw;
+        display: flex;
+    }
+    .s1-products{
+       display: flex;
+       flex-wrap: wrap; 
+       gap: 30px;
+       margin-top: 60px;
+    }
+    .product{
+        background-color:wheat;
+        flex-basis: 17%;
+    }
+    .product >img{
+        width: 110%;
+        height: 190px;
+    }
+    .offer{
+        background-color: red;
+        width: 190px;
+    }
+    .offer >img{
+        width: 100%;
+        flex-basis: 30%;
+    }
+     .offer{
+        display: flex;
+     }
+    .product{
+        width: 100%;
+
+    }
+
+    
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+        
+    
+
