@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">Flipkart</div>
+    <button class="login-btn" onclick="openModal()">Login</button>
+  </div>
+
+  <!-- Login Modal -->
+  <div class="modal" id="loginModal">
+    <div class="modal-content">
+      <div class="left-side">
+        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"/>
+        <h2>Login</h2>
+        <p>Get access to your Orders, Wishlist and Recommendations</p>
+      </div>
+      <div class="right-side">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <input type="text" id="userInput" placeholder="Enter Mobile number or Email">
+        <div class="error" id="errorMsg"></div>
+        <button onclick="submitLogin()">Continue</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
